@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+	<string id="st_mag_saiga23">
+		<text>Modified 23x75 Saiga-23 Magazine</text>
+	</string>
+	<string id="st_mag_saiga23_descr">
+		<text>
+		Modified Saiga-12S magazine with capacity for 8 shotshells. This magazine has been retooled for 23x75mm shotgun shells.
+		</text>
+	</string>
+
+	<string id="st_mag_saiga23_ext">
+		<text>Extended 23x75 Saiga-23 Magazine</text>
+	</string>
+	<string id="st_mag_saiga23_ext_descr">
+		<text>
+		Extended Saiga-12S magazine with capacity for 12 shotshells. This magazine has been retooled for 23x75mm shotgun shells. More shells means more mutants you can kill each each magazine.
+		</text>
+	</string>
+	
+</string_table>	

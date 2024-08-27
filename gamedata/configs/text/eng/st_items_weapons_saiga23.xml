@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+
+	<string id="st_wpn_saiga_bp">
+		<text>Saiga-23</text>
+	</string>
+	<string id="st_wpn_saiga_bp_descr">
+		<text>The Saiga-23 was developed by mechanics of the zone for stalkers hunting the toughest of mutants. Inspired by the russian prototype KS-23K, this gun wasbased off the Saiga-12 and built as a bullpup for greater mobility. The weapon was then rechambered to fire 23x75mm shotgun shells and refitted with a 510mm KS-23 barrel. The result is an extremely deadly close range weapon.</text>
+	</string>
+
+
+</string_table>
