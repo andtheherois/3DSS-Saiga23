@@ -16,7 +16,7 @@
     ef_main_weapon_type     				= 1
     ef_weapon_type          				= 8
     hand_dependence   						= 1 
-    single_handed     						= 0 
+    single_handed     						= 1 
 
     default_to_ruck         				= false
     sprint_allowed          				= true
@@ -80,7 +80,7 @@ ph_mass                 				= 2
     ammo_mag_size     						= 8    
     startup_ammo            				= 90
 
-	scopes 				                	= eot, specter, c-more, 0kp2, ac10632, d0cter, aim_low, e0t2, deltapoint, compm4s, rakurs, kemper, ekp8_18, mepro, acog, pn23, monstrum, tac30, trihawk, bravo4, t12
+	scopes 				                	= eot, specter, c-more, 0kp2, ac10632, d0cter, aim_low, e0t2, deltapoint, compm4s, rakurs, kemper, ekp8_18, mepro, acog, vulcan, monstrum, tac30, trihawk, bravo4, t12
  
     scope_status            				= 0
     scope_x              					= 47        
@@ -636,20 +636,20 @@ item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_t12_hud.
 ;-----------------------------------------------------SCOPES-------------------------------------------
 ;------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_specter]:wpn_saiga_bp
-
-
 hud					= wpn_saiga_bp_specter_hud
 
 1icon_layer                              = specter
 1icon_layer_x                            = 58
 1icon_layer_y                            = -10
+
 inv_weight                                         = 3.870
+
 scope_status                                       = 1
 scope_zoom_factor                                  = 30
 zoom_rotate_time                                   = 0.25
 scope_dynamic_zoom                                 = on
 use_alt_aim_hud                  			= true
-
+zoom_step_count = 1
 [wpn_saiga_bp_specter_hud]:wpn_saiga_bp_hud
 
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_specter_hud.ogf
@@ -680,24 +680,24 @@ item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_acog_hud.ogf
         aim_hud_offset_rot_16x9          = 0.012968, 0.006964, 0	
 		
 ;-------------------------------------------------------------------------------------------		
-[wpn_saiga_bp_pn23]:wpn_saiga_bp
+[wpn_saiga_bp_vulcan]:wpn_saiga_bp
 inv_weight			= 3.75
-hud				= wpn_saiga_bp_pn23_hud
-1icon_layer			    = pn23
+hud				= wpn_saiga_bp_vulcan_hud
+1icon_layer			    = vulcan
 1icon_layer_x			= 62
-1icon_layer_y			= -12
+1icon_layer_y			= -11
 
 scope_status                                       = 1
-scope_zoom_factor                                  = 30
+scope_zoom_factor                                  = 35
 zoom_rotate_time                                   = 0.25
 scope_dynamic_zoom                                 = on
 
-[wpn_saiga_bp_pn23_hud]:wpn_saiga_bp_hud
+[wpn_saiga_bp_vulcan_hud]:wpn_saiga_bp_hud
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_pn23_hud.ogf
-        aim_hud_offset_pos               = -0.049036, 0.016282, -0.165711
-        aim_hud_offset_pos_16x9          = -0.049036, 0.016282, -0.165711
-        aim_hud_offset_rot               = 0.007499, 0.006794, 0
-        aim_hud_offset_rot_16x9          = 0.007499, 0.006794, 0	
+        aim_hud_offset_pos               = -0.049647, 0.010227, -0.098668
+        aim_hud_offset_pos_16x9          = -0.049647, 0.010227, -0.098668
+        aim_hud_offset_rot               = 0.007478, 0.006794, 0
+        aim_hud_offset_rot_16x9          = 0.007478, 0.006794, 0
 		
 ;-------------------------------------------------------------------------------------------		
 [wpn_saiga_bp_tac30]:wpn_saiga_bp
