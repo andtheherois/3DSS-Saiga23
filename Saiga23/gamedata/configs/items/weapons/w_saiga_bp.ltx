@@ -80,7 +80,7 @@ ph_mass                 				= 2
     ammo_mag_size     						= 8    
     startup_ammo            				= 90
 
-	scopes 				                	= eot, specter, c-more, 0kp2, ac10632, d0cter, aim_low, e0t2, deltapoint, compm4s, rakurs, kemper, ekp8_18, mepro, acog, vulcan, monstrum, tac30, trihawk, bravo4, t12
+	scopes 				                	= eot, specter, c-more, 0kp2, ac10632, d0cter, aim_low, e0t2, deltapoint, kemper, ekp8_18, acog, vulcan, monstrum, tac30, trihawk, bravo4, t12, p1x42, 1p87, pk6, echo1, c79
  
     scope_status            				= 0
     scope_x              					= 47        
@@ -171,8 +171,8 @@ ph_mass                 				= 2
     kill_msg_width    						= 56
     kill_msg_height   						= 23
 	
-laser_status                             = true
-use_alt_aim_hud                   = true
+laser_status                 = true
+use_alt_aim_hud              = true
 
 lewd_lens_hide_enabled       = true
 lewd_lens_hide_bone          = scope1
@@ -343,354 +343,290 @@ fire_point2                              = 0, 0, 0.25
 
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_ac10632]:wpn_saiga_bp
-
-
-
-1icon_layer			= ac10632
-1icon_layer_x			= 80
-1icon_layer_y			= -6
-
-inv_weight                                         = 3.7
-
 hud				= wpn_saiga_bp_ac10632_hud
-	
+
+inv_weight          	= 3.7
+
+1icon_layer				= ac10632_x
+1icon_layer_x			= 104
+1icon_layer_y			= -8
+
+
 
 [wpn_saiga_bp_ac10632_hud]:wpn_saiga_bp_hud
-
 item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_ac10632_hud.ogf
-
-
-        aim_hud_offset_pos               = -0.049715, 0.024034, -0.082115
-        aim_hud_offset_pos_16x9          = -0.049715, 0.024034, -0.082115
-        aim_hud_offset_rot               = 0.008353, 0.010405, 0
-        aim_hud_offset_rot_16x9          = 0.008353, 0.010405, 0
+        aim_hud_offset_pos               = -0.050192, 0.018495, -0.09
+        aim_hud_offset_pos_16x9          = -0.050192, 0.018495, -0.09
+        aim_hud_offset_rot               = 0.003754, 0.011094, 0
+        aim_hud_offset_rot_16x9          = 0.003754, 0.011094, 0
 ;-------------------------------------------------------------------------------
 [wpn_saiga_bp_eot]:wpn_saiga_bp
+hud				= wpn_saiga_bp_eot_hud
 
-
-1icon_layer			    = eot
-1icon_layer_x			= 80
-1icon_layer_y			= -3
+1icon_layer			    = eot_x
+1icon_layer_x			= 101
+1icon_layer_y			= -5
 
 inv_weight                                         = 3.7
 
-hud				= wpn_saiga_bp_eot_hud
-
 [wpn_saiga_bp_eot_hud]:wpn_saiga_bp_hud
-
 item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_eot_hud.ogf
-
-        aim_hud_offset_pos               = -0.049922, 0.016878, -0.080407
-        aim_hud_offset_pos_16x9          = -0.049922, 0.016878, -0.080407
-        aim_hud_offset_rot               = -0.001377, 0.009806, 0
-        aim_hud_offset_rot_16x9          = -0.001377, 0.009806, 0
- 
+        aim_hud_offset_pos               = -0.050768, 0.009255, -0.09
+        aim_hud_offset_pos_16x9          = -0.050768, 0.009255, -0.09
+        aim_hud_offset_rot               = 0.003501, 0.011905, 0
+        aim_hud_offset_rot_16x9          = 0.003501, 0.011905, 0
 ;-----------------------------------------------------------------------------
 [wpn_saiga_bp_c-more]:wpn_saiga_bp
-
-
 hud						= wpn_saiga_bp_c-more_hud
 
-1icon_layer			    = c-more
-1icon_layer_x			= 80
+1icon_layer			    = c-more_x
+1icon_layer_x			= 111
 1icon_layer_y			= -4
 
 inv_weight                                         = 3.700
 
 [wpn_saiga_bp_c-more_hud]:wpn_saiga_bp_ac10632_hud
-
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_c-more_hud.ogf
-
-        aim_hud_offset_pos               = -0.050502, 0.01489, -0.074006
-        aim_hud_offset_pos_16x9          = -0.050502, 0.01489, -0.074006
-        aim_hud_offset_rot               = -0.010829, 0.012147, 0
-        aim_hud_offset_rot_16x9          = -0.010829, 0.012147, 0
- 
+        aim_hud_offset_pos               = -0.05041, 0.020202, -0.09
+        aim_hud_offset_pos_16x9          = -0.05041, 0.020202, -0.09
+        aim_hud_offset_rot               = 0.003376, 0.011704, 0
+        aim_hud_offset_rot_16x9          = 0.003376, 0.011704, 0
 ;--------------------------------------------------------------------------------
 [wpn_saiga_bp_0kp2]:wpn_saiga_bp
-
-
 hud						= wpn_saiga_bp_0kp2_hud
 
 inv_weight                                         = 3.700
 
-1icon_layer			    = 0kp2
-1icon_layer_x			= 80
+1icon_layer			    = 0kp2_x
+1icon_layer_x			= 104
 1icon_layer_y			= 1
 
 [wpn_saiga_bp_0kp2_hud]:wpn_saiga_bp_hud
-
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_0kp2_hud.ogf
-
-        aim_hud_offset_pos               = -0.050525, 0.026622, -0.085311
-        aim_hud_offset_pos_16x9          = -0.050525, 0.026622, -0.085311
-        aim_hud_offset_rot               = 0.002469, 0.019106, 0
-        aim_hud_offset_rot_16x9          = 0.002469, 0.019106, 0
+        aim_hud_offset_pos               = -0.047633, 0.023558, -0.09
+        aim_hud_offset_pos_16x9          = -0.047633, 0.023558, -0.09
+        aim_hud_offset_rot               = 0.002903, 0.011453, 0
+        aim_hud_offset_rot_16x9          = 0.002903, 0.011453, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_d0cter]:wpn_saiga_bp
-
-
 hud						= wpn_saiga_bp_d0cter_hud
 
 inv_weight                                         = 3.730
 
-1icon_layer			    = d0cter
-1icon_layer_x			= 80
+1icon_layer			    = d0cter_x
+1icon_layer_x			= 95
 1icon_layer_y			= -6
 
 [wpn_saiga_bp_d0cter_hud]:wpn_saiga_bp_hud
-
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_d0cter_hud.ogf
-
-        aim_hud_offset_pos               = -0.048474, 0.015748, -0.099748
-        aim_hud_offset_pos_16x9          = -0.048474, 0.015748, -0.099748
-        aim_hud_offset_rot               = -0.058768, 0.007773, 0
-        aim_hud_offset_rot_16x9          = -0.058768, 0.007773, 0
-;-------------------------------------------------------------------------------------------------------------------------------
-[wpn_saiga_bp_mepro]:wpn_saiga_bp
-
-
-
-hud						= wpn_saiga_bp_mepro_hud
-
-inv_weight                                         = 3.7
-
-1icon_layer			    = mepro
-1icon_layer_x			= 80
-1icon_layer_y			= 0
-
-[wpn_saiga_bp_mepro_hud]:wpn_saiga_bp_hud
-
-item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_mepro_hud.ogf
-
-        aim_hud_offset_pos               = -0.050129, 0.008736, -0.071663
-        aim_hud_offset_pos_16x9          = -0.050129, 0.008736, -0.071663
-        aim_hud_offset_rot               = -0.008888, 0.011948, 0
-        aim_hud_offset_rot_16x9          = -0.008888, 0.011948, 0
-
+        aim_hud_offset_pos               = -0.050341, 0.031061, -0.09
+        aim_hud_offset_pos_16x9          = -0.050341, 0.031061, -0.09
+        aim_hud_offset_rot               = 0.001263, 0.011235, 0
+        aim_hud_offset_rot_16x9          = 0.001263, 0.011235, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_aim_low]:wpn_saiga_bp
-
-
 hud						= wpn_saiga_bp_aim_low_hud
 
 inv_weight                                         = 3.7
 
-1icon_layer			    = aim_low
-1icon_layer_x			= 80
-1icon_layer_y			= 0
+1icon_layer			    = aim_low_x
+1icon_layer_x			= 91
+1icon_layer_y			= -3
 
 [wpn_saiga_bp_aim_low_hud]:wpn_saiga_bp_hud
-
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_aim_low_hud.ogf
-
-        aim_hud_offset_pos               = -0.050393, 0.033727, -0.106796
-        aim_hud_offset_pos_16x9          = -0.050393, 0.033727, -0.106796
-        aim_hud_offset_rot               = 0.008363, 0.010248, 0
-        aim_hud_offset_rot_16x9          = 0.008363, 0.010248, 0
+        aim_hud_offset_pos               = -0.050419, 0.031763, -0.09
+        aim_hud_offset_pos_16x9          = -0.050419, 0.031763, -0.09
+        aim_hud_offset_rot               = 0.003104, 0.011496, 0
+        aim_hud_offset_rot_16x9          = 0.003104, 0.011496, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_ekp8_18]:wpn_saiga_bp
-
-
 hud						= wpn_saiga_bp_ekp8_18_hud
 
 inv_weight                                         = 3.7
 
-1icon_layer			    = ekp8_18
-1icon_layer_x			= 85
-1icon_layer_y			= 0
+1icon_layer			    = ekp8_18_x
+1icon_layer_x			= 96
+1icon_layer_y			= 1
 
 [wpn_saiga_bp_ekp8_18_hud]:wpn_saiga_bp_hud
-
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_ekp8_18_hud.ogf
-
-        aim_hud_offset_pos               = -0.048336, 0.013852, -0.069323
-        aim_hud_offset_pos_16x9          = -0.048336, 0.013852, -0.069323
-        aim_hud_offset_rot               = 0.005864, 0.007911, 0
-        aim_hud_offset_rot_16x9          = 0.005864, 0.007911, 0
+        aim_hud_offset_pos               = -0.050907, 0.004906, -0.09
+        aim_hud_offset_pos_16x9          = -0.050907, 0.004906, -0.09
+        aim_hud_offset_rot               = -0.010099, 0.011978, 0
+        aim_hud_offset_rot_16x9          = -0.010099, 0.011978, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_e0t2]:wpn_saiga_bp
-
-
 hud						= wpn_saiga_bp_e0t2_hud
 
 inv_weight                                         = 3.7
 
-1icon_layer			    = e0t2
-1icon_layer_x			= 85
-1icon_layer_y			= -6
+1icon_layer			    = e0t2_x
+1icon_layer_x			= 101
+1icon_layer_y			= -9
 
 [wpn_saiga_bp_e0t2_hud]:wpn_saiga_bp_hud
-
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_e0t2_hud.ogf
-
-        aim_hud_offset_pos               = -0.048163, 0.020102, -0.076568
-        aim_hud_offset_pos_16x9          = -0.048163, 0.020102, -0.076568
-        aim_hud_offset_rot               = 0.010715, 0.004823, 0
-        aim_hud_offset_rot_16x9          = 0.010715, 0.004823, 0
-
+        aim_hud_offset_pos               = -0.050819, 0.016907, -0.09
+        aim_hud_offset_pos_16x9          = -0.050819, 0.016907, -0.09
+        aim_hud_offset_rot               = 0.002469, 0.011698, 0
+        aim_hud_offset_rot_16x9          = 0.002469, 0.011698, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_deltapoint]:wpn_saiga_bp
-
-inv_weight			= 3.241
-
 hud				= wpn_saiga_bp_deltapoint_hud
 
-1icon_layer			    = deltapoint
-1icon_layer_x			= 75
-1icon_layer_y			= -5
+inv_weight			= 3.5
+
+1icon_layer			    = deltapoint_x
+1icon_layer_x			= 91
+1icon_layer_y			= -1
 
 
 [wpn_saiga_bp_deltapoint_hud]:wpn_saiga_bp_hud
-
 item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_deltapoint_hud.ogf
-
-        aim_hud_offset_pos               = -0.048153, 0.023661, -0.091852
-        aim_hud_offset_pos_16x9          = -0.048153, 0.023661, -0.091852
-        aim_hud_offset_rot               = -0.007932, 0.003382, 0
-        aim_hud_offset_rot_16x9          = -0.007932, 0.003382, 0
-;--------------------------------------------------------------------------------------------------------------------------------
-[wpn_saiga_bp_compm4s]:wpn_saiga_bp
-
-hud					= wpn_saiga_bp_compm4s_hud
-
-
-1icon_layer                              = compm4s
-1icon_layer_x                            = 85
-1icon_layer_y                            = -10
-
-inv_weight                               = 3.580
-
-[wpn_saiga_bp_compm4s_hud]:wpn_saiga_bp_hud
-
-item_visual                		= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_compm4s_hud.ogf
-
-        aim_hud_offset_pos               = -0.0503, 0.019179, -0.089226
-        aim_hud_offset_pos_16x9          = -0.0503, 0.019179, -0.089226
-        aim_hud_offset_rot               = 0.008519, 0.010426, 0
-        aim_hud_offset_rot_16x9          = 0.008519, 0.010426, 0
-;--------------------------------------------------------------------------------------------
-[wpn_saiga_bp_rakurs]:wpn_saiga_bp
-
-hud					= wpn_saiga_bp_rakurs_hud
-
-
-1icon_layer                              = rakurs
-1icon_layer_x                            = 85
-1icon_layer_y                            = -5
-
-inv_weight                               = 3.700
-
-[wpn_saiga_bp_rakurs_hud]:wpn_saiga_bp_hud
-
-item_visual                		= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_rakurs_hud.ogf
-
-        aim_hud_offset_pos               = -0.04928, 0.028704, -0.11155
-        aim_hud_offset_pos_16x9          = -0.04928, 0.028704, -0.11155
-        aim_hud_offset_rot               = 0.008958, 0.011204, 0
-        aim_hud_offset_rot_16x9          = 0.008958, 0.011204, 0
- 
+        aim_hud_offset_pos               = -0.050394, 0.02531, -0.09
+        aim_hud_offset_pos_16x9          = -0.050394, 0.02531, -0.09
+        aim_hud_offset_rot               = 0.002115, 0.011129, 0
+        aim_hud_offset_rot_16x9          = 0.002115, 0.011129, 0
 ;---------------------------------------------------------------------------------------------
 [wpn_saiga_bp_kemper]:wpn_saiga_bp
+hud				= wpn_saiga_bp_kemper_hud
 
 inv_weight			= 3.7
 
-hud				= wpn_saiga_bp_kemper_hud
-
-1icon_layer			    = kemper
-1icon_layer_x			= 85
-1icon_layer_y			= -6
+1icon_layer			    = kemper_x
+1icon_layer_x			= 100
+1icon_layer_y			= -10
 
 
 [wpn_saiga_bp_kemper_hud]:wpn_saiga_bp_hud
-
 item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_kemper_hud.ogf
-
-        aim_hud_offset_pos               = -0.049061, 0.012145, -0.073021
-        aim_hud_offset_pos_16x9          = -0.049061, 0.012145, -0.073021
-        aim_hud_offset_rot               = -0.001921, 0.007781, 0
-        aim_hud_offset_rot_16x9          = -0.001921, 0.007781, 0
+        aim_hud_offset_pos               = -0.051023, 0.013565, -0.09
+        aim_hud_offset_pos_16x9          = -0.051023, 0.013565, -0.09
+        aim_hud_offset_rot               = 0.002555, 0.0116, 0
+        aim_hud_offset_rot_16x9          = 0.002555, 0.0116, 0
 ;---------------------------------------------------------------------------------------------
 [wpn_saiga_bp_t12]:wpn_saiga_bp
+hud				= wpn_saiga_bp_t12_hud
 
 inv_weight			= 3.7
 
-hud				= wpn_saiga_bp_t12_hud
-
-1icon_layer			    = t12
-1icon_layer_x			= 85
-1icon_layer_y			= -6
-
-	s3ds_reticle_size 	= 2.05
+1icon_layer			    = t12_x
+1icon_layer_x			= 94
+1icon_layer_y			= -10
 
 [wpn_saiga_bp_t12_hud]:wpn_saiga_bp_hud
-
 item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_t12_hud.ogf
+        aim_hud_offset_pos               = -0.049852, 0.031079, -0.09
+        aim_hud_offset_pos_16x9          = -0.049852, 0.031079, -0.09
+        aim_hud_offset_rot               = 0.015366, 0.010441, 0
+        aim_hud_offset_rot_16x9          = 0.015366, 0.010441, 0
+;---------------------------------------------------------------------------------------------
+[wpn_saiga_bp_p1x42]:wpn_saiga_bp
+hud				= wpn_saiga_bp_p1x42_hud
 
-        aim_hud_offset_pos               = -0.04879, 0.029637, -0.096415
-        aim_hud_offset_pos_16x9          = -0.04879, 0.029637, -0.096415
-        aim_hud_offset_rot               = 0.009736, 0.006295, 0
-        aim_hud_offset_rot_16x9          = 0.009736, 0.006295, 0
+inv_weight			= 3.7
 
+1icon_layer			    = p1x42_x
+1icon_layer_x			= 108
+1icon_layer_y			= -13
+
+[wpn_saiga_bp_p1x42_hud]:wpn_saiga_bp_hud
+item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_p1x42_hud.ogf
+        aim_hud_offset_pos               = -0.050785, 0.016746, -0.09
+        aim_hud_offset_pos_16x9          = -0.050785, 0.016746, -0.09
+        aim_hud_offset_rot               = 0.00453, 0.011534, 0
+        aim_hud_offset_rot_16x9          = 0.00453, 0.011534, 0
+;---------------------------------------------------------------------------------------------
+[wpn_saiga_bp_pk6]:wpn_saiga_bp
+hud				= wpn_saiga_bp_pk6_hud
+
+inv_weight			= 3.7
+
+1icon_layer			    = pk6_x
+1icon_layer_x			= 97
+1icon_layer_y			= -7
+
+[wpn_saiga_bp_pk6_hud]:wpn_saiga_bp_hud
+item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_pk6_hud.ogf
+        aim_hud_offset_pos               = -0.050011, 0.027439, -0.09
+        aim_hud_offset_pos_16x9          = -0.050011, 0.027439, -0.09
+        aim_hud_offset_rot               = 0.00323, 0.010819, 0
+        aim_hud_offset_rot_16x9          = 0.00323, 0.010819, 0
+;---------------------------------------------------------------------------------------------
+[wpn_saiga_bp_1p87]:wpn_saiga_bp
+hud				= wpn_saiga_bp_1p87_hud
+
+inv_weight			= 3.7
+
+1icon_layer			    = 1p87_x
+1icon_layer_x			= 106
+1icon_layer_y			= -12
+
+[wpn_saiga_bp_1p87_hud]:wpn_saiga_bp_hud
+item_visual                	= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_1p87_hud.ogf
+        aim_hud_offset_pos               = -0.050069, 0.010234, -0.09
+        aim_hud_offset_pos_16x9          = -0.050069, 0.010234, -0.09
+        aim_hud_offset_rot               = 0.003417, 0.011159, 0
+        aim_hud_offset_rot_16x9          = 0.003417, 0.011159, 0
+		
 ;------------------------------------------------------------------------------------------------------		
 ;-----------------------------------------------------SCOPES-------------------------------------------
 ;------------------------------------------------------------------------------------------------------
 [wpn_saiga_bp_specter]:wpn_saiga_bp
 hud					= wpn_saiga_bp_specter_hud
 
-1icon_layer                              = specter
-1icon_layer_x                            = 58
-1icon_layer_y                            = -10
+1icon_layer             = specter_x
+1icon_layer_x           = 76
+1icon_layer_y           = -11
 
-inv_weight                                         = 3.870
+inv_weight              = 3.870
 
-scope_status                                       = 1
-scope_zoom_factor                                  = 30
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
-use_alt_aim_hud                  			= true
-zoom_step_count = 1
+scope_status			= 1
+scope_zoom_factor		= 30
+zoom_rotate_time		= 0.25
+scope_dynamic_zoom		= on
+zoom_step_count			= 1
+
 [wpn_saiga_bp_specter_hud]:wpn_saiga_bp_hud
-
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_specter_hud.ogf
-		
-        aim_hud_offset_pos               = -0.048955, 0.015338, -0.15617
-        aim_hud_offset_pos_16x9          = -0.048955, 0.015338, -0.15617
-        aim_hud_offset_rot               = 0.007278, 0.007029, 0
-        aim_hud_offset_rot_16x9          = 0.007278, 0.007029, 0
-		
+        aim_hud_offset_pos               = -0.048838, 0.01559, -0.158368
+        aim_hud_offset_pos_16x9          = -0.048838, 0.01559, -0.158368
+        aim_hud_offset_rot               = 0.007631, 0.006938, 0
+        aim_hud_offset_rot_16x9          = 0.007631, 0.006938, 0		
 ;-------------------------------------------------------------------------------------------		
 [wpn_saiga_bp_acog]:wpn_saiga_bp
-1icon_layer                                        = acog
-1icon_layer_x                                      = 88
+hud					                               = wpn_saiga_bp_acog_hud
+
+1icon_layer                                        = acog_x
+1icon_layer_x                                      = 92
 1icon_layer_y                                      = -6
 
 inv_weight                                         = 3.770
+
 scope_status                                       = 1
 scope_zoom_factor                                  = 42.86
 zoom_rotate_time                                   = 0.25
 
-hud					                               = wpn_saiga_bp_acog_hud
-
 [wpn_saiga_bp_acog_hud]:wpn_saiga_bp_hud
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_acog_hud.ogf
-        aim_hud_offset_pos               = -0.049146, 0.017933, -0.16075
-        aim_hud_offset_pos_16x9          = -0.049146, 0.017933, -0.16075
-        aim_hud_offset_rot               = 0.012968, 0.006964, 0
-        aim_hud_offset_rot_16x9          = 0.012968, 0.006964, 0	
-		
+        aim_hud_offset_pos               = -0.049146, 0.017933, -0.159674
+        aim_hud_offset_pos_16x9          = -0.049146, 0.017933, -0.159674
+        aim_hud_offset_rot               = 0.013508, 0.006912, 0
+        aim_hud_offset_rot_16x9          = 0.013508, 0.006912, 0		
 ;-------------------------------------------------------------------------------------------		
 [wpn_saiga_bp_vulcan]:wpn_saiga_bp
-inv_weight			= 3.75
 hud				= wpn_saiga_bp_vulcan_hud
-1icon_layer			    = vulcan
-1icon_layer_x			= 62
-1icon_layer_y			= -11
+
+1icon_layer			    = vulcan_x
+1icon_layer_x			= 76
+1icon_layer_y			= -10
+
+inv_weight			= 3.75
 
 scope_status                                       = 1
 scope_zoom_factor                                  = 35
 zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
 
 [wpn_saiga_bp_vulcan_hud]:wpn_saiga_bp_hud
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_pn23_hud.ogf
@@ -701,11 +637,13 @@ item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_pn23_hud.ogf
 		
 ;-------------------------------------------------------------------------------------------		
 [wpn_saiga_bp_tac30]:wpn_saiga_bp
-inv_weight			= 3.62
 hud				= wpn_saiga_bp_tac30_hud
-1icon_layer			    = tac30
-1icon_layer_x			= 79
-1icon_layer_y			= -14
+
+1icon_layer			    = tac30_x
+1icon_layer_x			= 80
+1icon_layer_y			= -8
+
+inv_weight			= 3.62
 
 scope_status                                       = 1
 scope_zoom_factor                                  = 30
@@ -714,65 +652,112 @@ scope_dynamic_zoom                                 = on
 
 [wpn_saiga_bp_tac30_hud]:wpn_saiga_bp_hud
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_tac30_hud.ogf
-
-        aim_hud_offset_pos               = -0.049352, 0.011829, -0.111677
-        aim_hud_offset_pos_16x9          = -0.049352, 0.011829, -0.111677
-        aim_hud_offset_rot               = 0.007702, 0.008246, 0
-        aim_hud_offset_rot_16x9          = 0.007702, 0.008246, 0	
-
+        aim_hud_offset_pos               = -0.0492, 0.011775, -0.112571
+        aim_hud_offset_pos_16x9          = -0.0492, 0.011775, -0.112571
+        aim_hud_offset_rot               = 0.00772, 0.007164, 0
+        aim_hud_offset_rot_16x9          = 0.00772, 0.007164, 0
 ;-------------------------------------------------------------------------------------------		
 [wpn_saiga_bp_monstrum]:wpn_saiga_bp
-1icon_layer                                        = monstrum
-1icon_layer_x                                      = 98
-1icon_layer_y                                      = -13
+hud					                               = wpn_saiga_bp_monstrum_hud
+
+1icon_layer                                        = monstrum_x
+1icon_layer_x                                      = 97
+1icon_layer_y                                      = -11
+
 inv_weight                                         = 3.670
+
 scope_status                                       = 1
 scope_zoom_factor                                  = 60
 zoom_rotate_time                                   = 0.25
 
-hud					                               = wpn_saiga_bp_monstrum_hud
-
 [wpn_saiga_bp_monstrum_hud]:wpn_saiga_bp_hud
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_monstrum_hud.ogf
-        aim_hud_offset_pos               = -0.048929, 0.024343, -0.153235
-        aim_hud_offset_pos_16x9          = -0.048929, 0.024343, -0.153235
+        aim_hud_offset_pos               = -0.048929, 0.024343, -0.145183
+        aim_hud_offset_pos_16x9          = -0.048929, 0.024343, -0.145183
         aim_hud_offset_rot               = 0.006974, 0.006321, 0
         aim_hud_offset_rot_16x9          = 0.006974, 0.006321, 0
 		
 ;-------------------------------------------------------------------------------------------		
 [wpn_saiga_bp_trihawk]:wpn_saiga_bp
-1icon_layer                                        = trihawk
-1icon_layer_x                                      = 98
-1icon_layer_y                                      = -13
+hud					                               = wpn_saiga_bp_trihawk_hud
+
+1icon_layer                                        = trihawk_x
+1icon_layer_x                                      = 94
+1icon_layer_y                                      = -12
+
 inv_weight                                         = 3.670
+
 scope_status                                       = 1
 scope_zoom_factor                                  = 40
 zoom_rotate_time                                   = 0.25
 
-hud					                               = wpn_saiga_bp_trihawk_hud
-
 [wpn_saiga_bp_trihawk_hud]:wpn_saiga_bp_hud
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_trihawk_hud.ogf
-        aim_hud_offset_pos               = -0.049068, 0.011531, -0.129565
-        aim_hud_offset_pos_16x9          = -0.049068, 0.011531, -0.129565
+        aim_hud_offset_pos               = -0.049068, 0.011531, -0.119474
+        aim_hud_offset_pos_16x9          = -0.049068, 0.011531, -0.119474
         aim_hud_offset_rot               = 0.008341, 0.006737, 0
         aim_hud_offset_rot_16x9          = 0.008341, 0.006737, 0		
 		
 ;-------------------------------------------------------------------------------------------		
 [wpn_saiga_bp_bravo4]:wpn_saiga_bp
-1icon_layer                                        = bravo4
-1icon_layer_x                                      = 64
-1icon_layer_y                                      = -13
+hud					                               = wpn_saiga_bp_bravo4_hud
+
+1icon_layer                                        = bravo4_x
+1icon_layer_x                                      = 69
+1icon_layer_y                                      = -14
+
 inv_weight                                         = 3.670
+
 scope_status                                       = 1
 scope_zoom_factor                                  = 30
 zoom_rotate_time                                   = 0.25
 
-hud					                               = wpn_saiga_bp_bravo4_hud
-
 [wpn_saiga_bp_bravo4_hud]:wpn_saiga_bp_hud
 item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_bravo4_hud.ogf
-        aim_hud_offset_pos               = -0.048915, 0.019793, -0.134229
-        aim_hud_offset_pos_16x9          = -0.048915, 0.019793, -0.134229
+        aim_hud_offset_pos               = -0.048915, 0.019793, -0.133764
+        aim_hud_offset_pos_16x9          = -0.048915, 0.019793, -0.133764
         aim_hud_offset_rot               = 0.006709, 0.006977, 0
         aim_hud_offset_rot_16x9          = 0.006709, 0.006977, 0				
+		
+;-------------------------------------------------------------------------------------------		
+[wpn_saiga_bp_echo1]:wpn_saiga_bp
+hud					                               = wpn_saiga_bp_echo1_hud
+
+1icon_layer                                        = echo1_x
+1icon_layer_x                                      = 97
+1icon_layer_y                                      = -10
+
+inv_weight                                         = 3.670
+
+scope_status                                       = 1
+scope_zoom_factor                                  = 30
+zoom_rotate_time                                   = 0.25
+zoom_step_count 								   = 1
+scope_dynamic_zoom                                 = on
+
+[wpn_saiga_bp_echo1_hud]:wpn_saiga_bp_hud
+item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_echo1_hud.ogf
+        aim_hud_offset_pos               = -0.048915, 0.019793, -0.091845
+        aim_hud_offset_pos_16x9          = -0.048915, 0.019793, -0.091845
+        aim_hud_offset_rot               = 0.047725, 0.00609, 0
+        aim_hud_offset_rot_16x9          = 0.047725, 0.00609, 0		
+;-------------------------------------------------------------------------------------------		
+[wpn_saiga_bp_c79]:wpn_saiga_bp
+hud					                               = wpn_saiga_bp_c79_hud
+
+1icon_layer                                        = c79_x
+1icon_layer_x                                      = 100
+1icon_layer_y                                      = -7
+
+inv_weight                                         = 3.670
+
+scope_status                                       = 1
+scope_zoom_factor                                  = 40
+zoom_rotate_time                                   = 0.25
+
+[wpn_saiga_bp_c79_hud]:wpn_saiga_bp_hud
+item_visual				= dynamics\weapons\wpn_saigabp\wpn_saiga_bp_c79_hud.ogf
+        aim_hud_offset_pos               = -0.048969, 0.01639, -0.136877
+        aim_hud_offset_pos_16x9          = -0.048969, 0.01639, -0.136877
+        aim_hud_offset_rot               = 0.006763, 0.007007, 0
+        aim_hud_offset_rot_16x9          = 0.006763, 0.007007, 0			
